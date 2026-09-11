@@ -1,0 +1,29 @@
+commit 9c88797c3b441fdd9e349df2a9c0ea7fb8c38bb2
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:31:11 2026 +0800
+
+    Add conditional logic and integer casting for age
+
+commit 833073177f83a47d909a2e51afd5911b780fbea6
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:26:10 2026 +0800
+
+    Make profile creator interactive using input function
+
+commit 29aa7f11981f8df774654ecf12f4317c2b49e7e8
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:13:06 2026 +0800
+
+    Add follower growth tracker
+
+commit 6c38d7364fe63bf444efc05c1c114983918c45bf
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:10:02 2026 +0800
+
+    Update profile information
+
+commit 1e50bf4a2ec1fe002b8f816d653f0056cd9f4d6f
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:01:17 2026 +0800
+
+    First Post
