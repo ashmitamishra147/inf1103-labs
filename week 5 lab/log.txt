@@ -1,0 +1,35 @@
+commit 43f2ff435300d3a2c0ea444d92bc12a98ffd5c9c
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Oct 2 14:52:22 2026 +0800
+
+    Finalize inventory manager with volume persistence
+
+commit 52c967ecb5060d5904e7623d27b909d140d815b2
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Oct 2 14:42:59 2026 +0800
+
+    Implement load_inventory and save_inventory functionality
+
+commit ca5f82bd34b5fb540cfc6ba977d3f4aba9bd0529
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Oct 2 14:42:03 2026 +0800
+
+    Add base data structures and CRUD functions
+
+commit 6ae7f4c39cff4d1bea2b136557a65a03385667b5
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Sep 25 15:18:31 2026 +0800
+
+    Implement save_inventory write-back on exit
+
+commit eec1cc403501df032b6d6a9cf389948d8950c5dc
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 22 20:37:14 2026 +0800
+
+    Complete modular auditor lab
+
+commit 52a41ebd3a0bbfe1cc57937d5402feb4fd9050d6
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Sep 11 15:44:16 2026 +0800
+
+    my changes
