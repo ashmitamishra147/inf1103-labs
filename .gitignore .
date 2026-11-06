@@ -12,3 +12,6 @@ venv/
 # IDE settings
 .vscode/
 .idea/
+
+# Local JSON database files (optional depending on whether you want persistence tracked)
+# inventory_data.json
