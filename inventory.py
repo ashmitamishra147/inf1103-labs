@@ -1,64 +1,49 @@
-import json
-import os
-from models import PhysicalProduct, DigitalProduct
+from __future__ import annotations
+from product import Product, PhysicalProduct, DigitalProduct
+from supplier import Supplier
+from order import Order
 
 class Inventory:
-    """Manages the collection of products and JSON persistence."""
-    
-    def __init__(self, filepath: str = "inventory_data.json"):
-        self._products = {}
-        self._filepath = filepath
-        self.load_from_file()
+    def __init__(self):
+        self.products: list[Product] = []
 
-    def add_product(self, product) -> bool:
-        if product.product_id in self._products:
-            return False
-        self._products[product.product_id] = product
-        self.save_to_file()
-        return True
+    def add_product(self, product: Product) -> None:
+        self.products.append(product)
 
-    def find_product(self, product_id: str):
-        return self._products.get(product_id)
+    def remove_product(self, product_id: str) -> None:
+        self.products = [p for p in self.products if p.product_id != product_id]
 
-    def update_stock(self, product_id: str, quantity: int) -> bool:
-        product = self.find_product(product_id)
-        if product:
-            product.update_stock(quantity)
-            self.save_to_file()
-            return True
-        return False
+    def find_product(self, product_id: str) -> Product | None:
+        for product in self.products:
+            if product.product_id == product_id:
+                return product
+        return None
 
-    def display_all(self) -> list:
-        return [p.display_information() for p in self._products.values()]
-
-    def save_to_file(self) -> None:
-        data = [p.to_dict() for p in self._products.values()]
-        try:
-            with open(self._filepath, 'w') as f:
-                json.dump(data, f, indent=4)
-        except IOError as e:
-            print(f"Error saving inventory to file: {e}")
-
-    def load_from_file(self) -> None:
-        if not os.path.exists(self._filepath):
+    def display_all(self) -> None:
+        if not self.products:
+            print("Inventory is empty.")
             return
-        
-        try:
-            with open(self._filepath, 'r') as f:
-                data = json.load(f)
-                self._products.clear()
-                for item in data:
-                    ptype = item.get("type")
-                    if ptype == "physical":
-                        product = PhysicalProduct(
-                            item["product_id"], item["name"], item["price"], item["stock"], item["weight"]
-                        )
-                    elif ptype == "digital":
-                        product = DigitalProduct(
-                            item["product_id"], item["name"], item["price"], item["stock"], item["download_size"]
-                        )
-                    else:
-                        continue
-                    self._products[product.product_id] = product
-        except (IOError, json.JSONDecodeError) as e:
-            print(f"Error loading inventory from file: {e}")
+        for product in self.products:
+            product.display_information()
+            print(f"Fulfilment: {product.get_fulfilment_info()}\n")
+
+def main():
+    sup = Supplier("S001", "TechCorp", "support@techcorp.com")
+    
+    p1 = PhysicalProduct("P101", "Laptop", 1200.0, 10, sup, 2.5)
+    d1 = DigitalProduct("D201", "Antivirus Sub", 49.99, 100, sup, 15.0)
+
+    inventory = Inventory()
+    inventory.add_product(p1)
+    inventory.add_product(d1)
+
+    print("--- Inventory Display (Polymorphism) ---")
+    inventory.display_all()
+
+    order = Order("ORD-001")
+    order.add_order_line(p1, 1)
+    order.add_order_line(d1, 2)
+    order.display_order()
+
+if __name__ == "__main__":
+    main()
