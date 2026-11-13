@@ -1,3 +1,21 @@
+commit 412ad9500042aa91da72780881a19d374634aba7
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Nov 13 14:44:13 2026 +0800
+
+    Completed INF1103 Lab 8 OOP Relationships Part 2
+
+commit 955eef1ccdafdf1418b4fcfbe7a773060de2d6cb
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Nov 6 23:30:01 2026 +0800
+
+    Complete Lab 7 implementation
+
+commit 548be3a5b60019c40171c6bf32e67cac21b09c18
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Wed Nov 4 11:19:52 2026 +0800
+
+    Complete Lab 7: Inheritance, polymorphism, abstract classes, and JSON persistence
+
 commit 49eff360b0801167468fd9da35cbcab65469c31c
 Author: Ashmita <ashmitamishra147@gmail.com>
 Date:   Tue Nov 3 23:00:34 2026 +0800
