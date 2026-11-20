@@ -1,14 +1,45 @@
+commit e7cae02b89a4a355ae556f972e7a9ec48749285b
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Nov 20 10:42:12 2026 +0800
+
+    Completed INF1103 Lab 9 Strategy, Factory, validation, error handling, and tests
+
+commit cd6625c6aeb18018e18d8f623e88ede164655f2a
+Merge: 028ee9f 9d11048
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Nov 13 14:53:54 2026 +0800
+
+    Resolve merge conflicts and complete Lab 8
+
+commit 028ee9f4f0c7d24be072d26a1f0b51850836f18d
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Nov 13 14:48:07 2026 +0800
+
+    Complete Lab 8: Association, Aggregation, Composition, and LSP
+
 commit 412ad9500042aa91da72780881a19d374634aba7
 Author: Ashmita <ashmitamishra147@gmail.com>
 Date:   Fri Nov 13 14:44:13 2026 +0800
 
     Completed INF1103 Lab 8 OOP Relationships Part 2
 
+commit 9d11048544eee38f35c3a23e55023139b5d5020e
+Author: ashmitamishra147 <ashmitamishra147@gmail.com>
+Date:   Fri Nov 6 23:34:51 2026 +0800
+
+    Add files via upload
+
 commit 955eef1ccdafdf1418b4fcfbe7a773060de2d6cb
 Author: Ashmita <ashmitamishra147@gmail.com>
 Date:   Fri Nov 6 23:30:01 2026 +0800
 
     Complete Lab 7 implementation
+
+commit 8b17bc23e3013214f15a24c60dd95ea8410c2c62
+Author: ashmitamishra147 <ashmitamishra147@gmail.com>
+Date:   Fri Nov 6 14:27:41 2026 +0800
+
+    Add files via upload
 
 commit 548be3a5b60019c40171c6bf32e67cac21b09c18
 Author: Ashmita <ashmitamishra147@gmail.com>
@@ -52,8 +83,50 @@ Date:   Tue Sep 22 20:37:14 2026 +0800
 
     Complete modular auditor lab
 
+commit eeae3767f415167de6d6af80ee6d28517c6d2553
+Author: ashmitamishra147 <ashmitamishra147@gmail.com>
+Date:   Fri Sep 11 15:52:03 2026 +0800
+
+    Add files via upload
+
 commit 52a41ebd3a0bbfe1cc57937d5402feb4fd9050d6
 Author: Ashmita <ashmitamishra147@gmail.com>
 Date:   Fri Sep 11 15:44:16 2026 +0800
 
     my changes
+
+commit bdc301b9dac3672305bafefff5ee803e9dfbc931
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Fri Sep 11 14:24:03 2026 +0800
+
+    Add log.txt
+
+commit 9c88797c3b441fdd9e349df2a9c0ea7fb8c38bb2
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:31:11 2026 +0800
+
+    Add conditional logic and integer casting for age
+
+commit 833073177f83a47d909a2e51afd5911b780fbea6
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:26:10 2026 +0800
+
+    Make profile creator interactive using input function
+
+commit 29aa7f11981f8df774654ecf12f4317c2b49e7e8
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:13:06 2026 +0800
+
+    Add follower growth tracker
+
+commit 6c38d7364fe63bf444efc05c1c114983918c45bf
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:10:02 2026 +0800
+
+    Update profile information
+
+commit 1e50bf4a2ec1fe002b8f816d653f0056cd9f4d6f
+Author: Ashmita <ashmitamishra147@gmail.com>
+Date:   Tue Sep 8 13:01:17 2026 +0800
+
+    First Post
